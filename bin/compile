@@ -11,4 +11,4 @@ if [ ! -s $1/build.py ]; then
   exit 1
 fi
 
-echo "Hello from the world of buildpacks!" > buildpack_magic.txt
+echo "Hello from the world of buildpacks!" > $1/buildpack_magic.txt
