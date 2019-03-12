@@ -6,7 +6,7 @@ indent() {
 
 echo "-----> Found build.py"
 
-if [ ! -s $1/hello.txt ]; then
+if [ ! -s $1/build.py ]; then
   echo "build.py is empty" | indent
   exit 1
 fi
