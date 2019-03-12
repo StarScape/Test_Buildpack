@@ -12,4 +12,6 @@ if [ ! -s $1/build.py ]; then
 fi
 
 echo "Test!!!"
+echo $1
+touch $1/does_this_work.txt
 echo "Hello from the world of buildpacks!" > $1/buildpack_magic.txt
