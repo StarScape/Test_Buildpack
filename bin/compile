@@ -13,5 +13,7 @@ fi
 
 echo "Test!!!"
 echo $1
+echo $2
+echo $3
 touch $1/does_this_work.txt
 echo "Hello from the world of buildpacks!" > $1/buildpack_magic.txt
