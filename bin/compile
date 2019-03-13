@@ -12,4 +12,4 @@ if [ ! -s $1/build.py ]; then
 fi
 
 echo "Building static files..." | indent
-python $1/build.py main_js sass brl_admin reports fonts misc_js test webpack 
+python $1/build.py main_js sass brl_admin reports misc_js webpack
