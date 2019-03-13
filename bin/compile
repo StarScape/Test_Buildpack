@@ -15,5 +15,7 @@ echo "Test!!!"
 echo $1
 echo $2
 echo $3
-touch $1/does_this_work.txt
+touch $1/does_this_work1.txt
+touch $2/does_this_work2.txt
+touch $3/does_this_work3.txt
 echo "Hello from the world of buildpacks!" > $1/buildpack_magic.txt
